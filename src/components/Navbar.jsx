@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar  = () => {
     return (
-        <nav className="backdrop-blur-md bg-white/10 text-white fixed w-full top-0 z-50 p-4 shadow-md">
+        <nav className="backdrop-blur-md bg-black/70 text-white fixed w-full top-0 z-50 p-4 shadow-md">
             <div className="max-w-6xl mx-auto flex justify-between items-center">
                 <h1 className="text-xl font-bold">My Portfolio</h1>
                 <div className="space-x-6">

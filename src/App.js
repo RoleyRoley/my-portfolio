@@ -7,7 +7,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './index.css'; // Tailwind should be imported here
+import TechCarousel from './components/TechCarousel';
+import './index.css'; 
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <TechCarousel />
       <Projects />
       <Contact />
       <Footer />
