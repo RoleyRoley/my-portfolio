@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
+import FadeInWhenVisible from "./FadeInWhenVisible";
 
 const techStack = [
   { name: 'HTML', icon: 'logos:html-5', color: '#e44d26' },
@@ -16,16 +17,16 @@ const duplicatedStack = [...techStack, ...techStack, ...techStack, ...techStack,
 
 const TechCarousel = () => {
   return (
-    <section className="py-4 bg-black/90 backdrop-blur-md overflow-hidden">
+    <section className="py-4 bg-black/100 backdrop-blur-md overflow-hidden">
       
-
-      <div className="relative w-full ">
+      <FadeInWhenVisible delay={0.2}>
+      <div className="relative w-full">
         <div className="flex animate-scroll gap-12 whitespace-nowrap w-max">
           {duplicatedStack.map((tech, index) => (
             <div key={index} className="flex flex-col items-center min-w-[80px]">
 
               <div
-                className="p-3 transition-transform hover:scale-110"
+                className="p-3 transition-transform hover:scale-150"
                 style={{
                   filter: 'drop-shadow(0 0 6px rgba(255, 255, 255, 0))',
                 }}
@@ -44,6 +45,8 @@ const TechCarousel = () => {
           ))}
         </div>
       </div>
+      </FadeInWhenVisible>
+      
     </section>
   );
 };

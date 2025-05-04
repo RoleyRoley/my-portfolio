@@ -1,8 +1,10 @@
 import React from "react";
+import FadeInWhenVisible from "./FadeInWhenVisible";
 
 const Contact = () => {
     return (
         <section id="contact" className="py-20 px-6 bg-black/90 backdrop-blur-md text-white">
+            <FadeInWhenVisible>
             <div className="max-w-xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
                 <p className="text-lg text-gray-300 mb-6">
@@ -20,6 +22,7 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
+            </FadeInWhenVisible>
         </section>
     );
 };

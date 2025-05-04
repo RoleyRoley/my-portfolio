@@ -1,7 +1,10 @@
 import React from 'react';
+import FadeInWhenVisible from "./FadeInWhenVisible";
+
 
 const ProjectCard = ({ title, description, tech, github, demo }) => {
     return (
+        <FadeInWhenVisible>
         <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-md hover:shadow-xl transition text-white">
             <h3 className="text-2xl font-bold mb-2">{title}</h3>
             <p className="mb-4 text-gray-300">{description}</p>
@@ -25,6 +28,7 @@ const ProjectCard = ({ title, description, tech, github, demo }) => {
                 )}
             </div>
         </div>
+        </FadeInWhenVisible>
     );
 };
 
