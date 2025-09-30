@@ -2,7 +2,7 @@ import React from 'react';
 import FadeInWhenVisible from "./FadeInWhenVisible";
 
 
-const ProjectCard = ({ title, description, tech, github, demo }) => {
+const ProjectCard = ({ title, description, tech, github }) => {
     return (
         <FadeInWhenVisible>
         <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-md hover:shadow-xl transition text-white">
@@ -19,11 +19,6 @@ const ProjectCard = ({ title, description, tech, github, demo }) => {
                 {github && (
                 <a href={github} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
                     GitHub
-                </a>
-                )}
-                {demo && (
-                <a href={demo} target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline">
-                    Live Demo
                 </a>
                 )}
             </div>

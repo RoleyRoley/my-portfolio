@@ -15,7 +15,7 @@ const Contact = () => {
                         📧 Email: <a href="sonnyjohnjeffreys@gmail.com" className="text-blue-400 hover:underline">sonnyjohnjeffreys@gmail.com</a>
                     </p>
                     <p>
-                        💼 LinkedIn: <a href="linkedin.com/in/sonny-jeffreys-b96a05227" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">linkedin.com/in/sonny-jeffreys-b96a05227</a>
+                        💼 LinkedIn: <a href="https://www.linkedin.com/in/sonny-jeffreys/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">https://www.linkedin.com/in/sonny-jeffreys/</a>
                     </p>
                     <p>
                         💻 GitHub: <a href="https://github.com/RoleyRoley" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">https://github.com/RoleyRoley</a>
