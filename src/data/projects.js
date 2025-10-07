@@ -6,8 +6,8 @@ const projects = [
         github: "https://github.com/RoleyRoley/user-auth-system",
     },
     {
-        title: "Portfolio Website",
-        description: "A personal website to showcase my projects, resume, and contact info. Built with React and Tailwind CSS.",
+        title: "Dog Grooming Website",
+        description: "A website in development for a local business.",
         tech: ["React", "Tailwind", "Vite"],
         github: "https://github.com/your-username/portfolio",
     },
