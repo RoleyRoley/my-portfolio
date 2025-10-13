@@ -10,6 +10,7 @@ const projects = [
         description: "A website in development for a local business.",
         tech: ["React", "Tailwind", "Vite"],
         github: "https://github.com/your-username/portfolio",
+        demo: "https://www.thedogandcollar.uk" 
     },
     {
         title: "Portfolio Website",
