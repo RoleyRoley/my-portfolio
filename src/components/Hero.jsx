@@ -20,7 +20,7 @@ const Hero = () => {
                         
                         View My Work
                     </a>
-                    <a href="/cv.pdf" 
+                    <a href="/Sonny-Jeffreys-CV-2026.pdf" 
                         
                         className="px-6 py-3 bg-white/20 backdrop-blur-md rounded-full hover:bg-white/30 transition text-white">
                         Download CV
