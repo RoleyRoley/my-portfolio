@@ -1,9 +1,21 @@
 const projects = [
     {
+        title: "Video Game Price Tracker",
+        description: "A web application for tracking game prices on various sites over time. Search for games, add them to your watchlist, and monitor price changes - including discounts - with an automatically updating price history.",
+        tech: ["Python", "FastAPI"],
+        github: "https://github.com/RoleyRoley/video_game_price_tracker",
+    },
+    {
         title: "Sorting Visualizer",
         description: "A visual representation of various sorting algorithms, built using Python.",
         tech: ["Python"],
         github: "https://github.com/RoleyRoley/sorting_algorithm_visualiser",
+    },
+    {
+        title: "Portfolio Website",
+        description: "Repository for this website.",
+        tech: ["React", "Tailwind CSS"],
+        github: "https://github.com/RoleyRoley/my-portfolio",
     },
     {
         title: "Dog Grooming Website",
@@ -24,18 +36,8 @@ const projects = [
         tech: ["Python"],
         github: "https://github.com/RoleyRoley/distance_calculator",
     },
-    {
-        title: "Portfolio Website",
-        description: "Repository for this website.",
-        tech: ["React", "Tailwind CSS"],
-        github: "https://github.com/RoleyRoley/my-portfolio",
-    },
-    {
-        title: "CLI Task Manager",
-        description: "A command-line interface task manager built in Python.",
-        tech: ["Python"],
-        github: "https://github.com/RoleyRoley/CLI_Task_Manager",
-    },
+    
+    
 
 ];
 

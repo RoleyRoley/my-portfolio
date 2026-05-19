@@ -2,6 +2,8 @@ import React from 'react';
 
 
 const Hero = () => {
+    const cvUrl = `${process.env.PUBLIC_URL}/Sonny_Jeffreys_CV_2026.pdf`;
+
     return (
         <section className="h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 via-black to-gray-800 relative">
             <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
@@ -20,7 +22,8 @@ const Hero = () => {
                         
                         View My Work
                     </a>
-                    <a href="/Sonny-Jeffreys-CV-2026.pdf" 
+                    <a href={cvUrl}
+                        download="Sonny_Jeffreys_CV_2026.pdf"
                         
                         className="px-6 py-3 bg-white/20 backdrop-blur-md rounded-full hover:bg-white/30 transition text-white">
                         Download CV
