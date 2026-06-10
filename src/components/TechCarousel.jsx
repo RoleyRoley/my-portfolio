@@ -13,7 +13,7 @@ const techStack = [
   { name: 'Java', icon: 'logos:java', color: '#f89820' },
 ];
 
-const duplicatedStack = [...techStack, ...techStack, ...techStack, ...techStack,...techStack, ...techStack]; 
+const duplicatedStack = [...techStack, ...techStack, ...techStack];
 
 const TechCarousel = () => {
   return (
@@ -26,16 +26,7 @@ const TechCarousel = () => {
             <div key={index} className="flex flex-col items-center min-w-[80px]">
 
               <div
-                className="p-3 transition-transform hover:scale-150"
-                style={{
-                  filter: 'drop-shadow(0 0 6px rgba(255, 255, 255, 0))',
-                }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.filter = `drop-shadow(0 0 10px ${tech.color})`)
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.filter = 'drop-shadow(0 0 6px rgba(255, 255, 255, 0))')
-                }
+                className="p-3 transition-transform duration-300 hover:scale-110"
               >
                 <Icon icon={tech.icon} width="60" height="60" />
               </div>

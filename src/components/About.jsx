@@ -4,7 +4,7 @@ import FadeInWhenVisible from "./FadeInWhenVisible";
 const About = () => {
     return (
         
-        <section id="about" className="py-20 px-6 bg-black backdrop-blur-md text-white bg-gradient-to-bl from-gray-800 via-black to-gray-800 relative">
+        <section id="about" className="py-20 px-6 bg-black text-white bg-gradient-to-bl from-gray-800 via-black to-gray-800 relative">
             <FadeInWhenVisible>
             <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>

@@ -6,7 +6,7 @@ const Hero = () => {
 
     return (
         <section className="h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 via-black to-gray-800 relative">
-            <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
+            <div className="absolute inset-0 bg-black/30"></div>
             <div className="z-10 text-center text-white px-4">
                 
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Sonny</h1>

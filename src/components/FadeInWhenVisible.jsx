@@ -4,7 +4,7 @@ import { useRef } from 'react';
 const FadeInWhenVisible = ({ children, delay = 0 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { 
-    once: false, 
+    once: true,
     margin: '-100px',
 });
     
@@ -13,7 +13,7 @@ const FadeInWhenVisible = ({ children, delay = 0 }) => {
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 20 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      animate={isInView ? { opacity: 1, y: 0 } : undefined}
       transition={{ duration: 0.6, ease: 'easeOut', delay }}
     >
       {children}
